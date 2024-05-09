@@ -1,3 +1,4 @@
+import java.util.ArrayList;  /// importing arraylist package
 
 //Java ArrayList
 //The ArrayList class is a resizable array, which can be found in the java.util package.
@@ -9,13 +10,11 @@
 // The syntax is also slightly different:
 public class Java_ArrayList {
 
-
-
-
-
-
-
-
+    public static void main(String[] args) {
+        ArrayList<String> str =new ArrayList<String>();
+        str.add("Joker");
+        System.out.println(str);
+    }
 
 
 }
